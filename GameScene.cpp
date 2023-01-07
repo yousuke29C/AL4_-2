@@ -31,6 +31,7 @@ void GameScene::Initialize(DirectXCommon* dxCommon, Input* input)
 	this->dxCommon = dxCommon;
 	this->input = input;
 
+
 	// デバッグテキスト用テクスチャ読み込み
 	Sprite::LoadTexture(debugTextTexNumber, L"Resources/debugfont.png");
 	// デバッグテキスト初期化
